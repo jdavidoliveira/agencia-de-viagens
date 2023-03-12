@@ -23,7 +23,7 @@
                     <img src="imagens/aviao.png" alt="icon de aviao">
                     <h1>Solicite um orçamento</h1>
                 </div>
-                <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/" class="main-form">
+                <form class="main-form">
                     <h2>Informe seus dados</h2>
                     <div class="form-nome">
                         <label for="nome">Nome</label>
@@ -57,6 +57,7 @@
                             <select name="origem" id="origem">
                                 <option value="default">Partindo de</option>
                                 <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
                             </select>
                         </div>
                         <div class="form-destino">
@@ -64,6 +65,7 @@
                             <select name="destino" id="destino">
                                 <option value="default">Indo para</option>
                                 <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
                             </select>
                         </div>
                     </div>
@@ -105,7 +107,7 @@
                     </div>
 
                     <div>
-                        <button type="submit" class="form-button">Solicitar orçamento</button>
+                        <button type="submit" class="form-button" id="form_submit_button">Solicitar orçamento</button>
                     </div>
 
                 </form>
