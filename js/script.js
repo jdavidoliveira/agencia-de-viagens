@@ -45,8 +45,8 @@ form_submit_button.addEventListener("click", function(e) {
             form_dados.preferencias.push("Suite")
         }
 
-
         console.table(form_dados);
+        localStorage.setItem("form_dados", JSON.stringify(form_dados));
 });
 
 
